@@ -115,7 +115,7 @@ function App() {
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-indigo-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </div>
           </div>
-        </div>  
+        </div>
       </section>
       {/* About */}
       <section
@@ -420,12 +420,21 @@ function App() {
                       })}
                     </div>
 
-                    {/* Action button (choose one: Code or Preview) */}
                     <a
-                      href="#"
+                      href={project.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="flex items-center text-sm text-gray-400 hover:text-indigo-400 transition-colors"
                     >
-                      <i className="ri-github-fill mr-2"></i> Code
+                      {project.type === "code" ? (
+                        <>
+                          <i className="ri-github-fill mr-2"></i> Code
+                        </>
+                      ) : (
+                        <>
+                          <i className="ri-external-link-line mr-2"></i> Preview
+                        </>
+                      )}
                     </a>
                   </div>
                 </div>
@@ -436,7 +445,7 @@ function App() {
             ))}
           </div>
 
-          {/* Simple CTA */}
+          {/* Simple CTA
           <div className="mt-16 text-center">
             <a
               href="/projects"
@@ -445,7 +454,7 @@ function App() {
               <i className="ri-chat-1-line mr-2"></i>
               More Project
             </a>
-          </div>
+          </div> */}
         </div>
       </section>
     </>
