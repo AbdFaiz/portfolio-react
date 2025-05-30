@@ -68,7 +68,7 @@ export default function Footer() {
             {/* Social & contact */}
             <div className="text-center md:text-right">
               <h4 className="text-lg font-semibold text-white mb-4">
-                faiz@example.com
+                abdurrahmanfaiz187@gmail.com
               </h4>
               <div className="flex justify-center md:justify-end gap-4">
                 {listSocial.map((social) => (
@@ -84,10 +84,10 @@ export default function Footer() {
                   </a>
                 ))}
               </div>
-              <p className="mt-4 text-sm text-gray-500">
+              {/* <p className="mt-4 text-sm text-gray-500">
                 Built with <span className="text-indigo-400">React</span> &{" "}
                 <span className="text-indigo-400">Tailwind CSS</span>
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
