@@ -331,7 +331,7 @@ function App() {
           </div>
 
           {/* Animated floating tech labels */}
-          <div className="absolute top-1/3 left-0 w-full pointer-events-none select-none hidden lg:block">
+          {/* <div className="absolute top-1/3 left-0 w-full pointer-events-none select-none hidden lg:block">
             <div className="flex justify-around">
               <span className="text-xs font-bold tracking-widest text-transparent uppercase opacity-20 bg-clip-text bg-gradient-to-r from-indigo-500 to-indigo-300">
                 Frontend
@@ -346,7 +346,7 @@ function App() {
                 Tools
               </span>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
