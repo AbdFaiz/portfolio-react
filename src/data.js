@@ -170,13 +170,6 @@ export const listTools = [{
     },
     {
         id: 21,
-        name: "Bash",
-        icon: "/assets/tools/bash.svg",
-        color: "hover:shadow-[0_0_25px_5px_rgba(76,86,106,0.3)]",
-        bg: "hover:bg-gray-600/10",
-    },
-    {
-        id: 22,
         name: "Node-red",
         icon: "/assets/tools/nodered.svg",
         color: "hover:shadow-[0_0_25px_5px_rgba(203,0,0,0.3)]",
