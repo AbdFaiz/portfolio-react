@@ -227,12 +227,12 @@ export const listProject = [{
     }, {
         id: 5,
         gambar: Project5,
-        nama: "Web Portfolio",
-        desk: "A responsive personal portfolio website built using ReactJS, and Tailwind. Showcases projects, skills, with a clean and modern layout.",
-        tools: ["React", "Tailwind"],
+        nama: "Web CMS & WebMail",
+        desk: "A web-based Content Management System for managing company user accounts and emails. Includes authentication, user management, and a modern webmail interface for sending and receiving internal emails.",
+        tools: ["Laravel", "Bootstrap", "CSS3", "PostgreSQL", "MySQL"],
         dad: "600",
         type: "code",
-        url: "https://github.com/AbdFaiz/portfolio-react",
+        url: "#",
     },
     {
         id: 6,
