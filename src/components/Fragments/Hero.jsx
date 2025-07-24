@@ -96,7 +96,7 @@ const Hero = () => {
             <div className="relative z-20 overflow-hidden rounded-2xl backdrop-blur-sm bg-white/5 border border-white/10">
               <img
                 src={imageData.HeroImage}
-                alt="Abdurrahman Faiz"
+                alt="Abdurrahman Faiz, a Full Stack Web Developer" 
                 className="w-full h-full transition-all duration-500 saturate-0 hover:saturate-100 object-cover max-w-[28rem] max-h-[28rem]"
               />
             </div>
