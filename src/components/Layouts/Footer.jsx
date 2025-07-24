@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { listSocial } from "../data";
+import { listSocial } from "../../data";
 
 export default function Footer() {
   const [isVisible, setIsVisible] = useState(false);
