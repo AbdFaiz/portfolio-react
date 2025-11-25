@@ -12,7 +12,7 @@ const Hero = () => {
     });
 
     const typedText = new Typed(".typewriter-text", {
-      strings: ["Web Developer", "Backend Developer", "Frontend Developer"],
+      strings: ["Full Stack Developer", "Web Developer", "Tech Enthusiast"],
       typeSpeed: 90,
       backSpeed: 50,
       loop: true,
